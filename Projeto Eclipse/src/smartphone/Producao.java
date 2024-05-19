@@ -10,9 +10,9 @@ public class Producao {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		IPhone iphone = new IPhone();
+		IPhone iPhone = new IPhone();
 		
-		ReprodutorMusical musica = iphone;
+		ReprodutorMusical musica = iPhone;
 		System.out.print("Digite o nome da música: ");
 		String music = sc.nextLine();
 		
